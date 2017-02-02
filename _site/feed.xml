@@ -6,9 +6,22 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Dec 2016 21:17:37 +0900</pubDate>
-    <lastBuildDate>Wed, 21 Dec 2016 21:17:37 +0900</lastBuildDate>
+    <pubDate>Thu, 02 Feb 2017 22:41:00 +0900</pubDate>
+    <lastBuildDate>Thu, 02 Feb 2017 22:41:00 +0900</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Test blog</title>
+        <description>&lt;p&gt;테스트용 블로그 입니다.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Feb 2017 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/technology/2017/02/02/test-blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/technology/2017/02/02/test-blog.html</guid>
+        
+        
+        <category>technology</category>
+        
+      </item>
     
       <item>
         <title>Styles at a glance</title>

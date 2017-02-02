@@ -12,9 +12,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Archive</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-">
+  <title>Test blog</title>
+  <meta name="description" content="테스트용 블로그 입니다.">
 
   <!-- evil icon -->
 
@@ -24,7 +23,7 @@
   <!-- todo: include this into main.css -->
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/archive.html">
+  <link rel="canonical" href="http://localhost:4000/technology/2017/02/02/test-blog.html">
   <link rel="alternate" type="application/rss+xml" title="Richg0ld's Blog" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -66,52 +65,62 @@
 
         <div class="nine columns" style="z-index:100;">
           <div class="wrapper">
-            <div>
+            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h2>Archive</h2>
+  <header class="artilce_header">
+    <h1 class="artilce_title" itemprop="name headline">Test blog</h1>
+    <p class="artilce_meta"><time datetime="2017-02-02T00:00:00+09:00" itemprop="datePublished">Feb 2, 2017</time></p>
+  </header>
 
-  <section class="archive_list">
-    
+  <div class="article-content" itemprop="articleBody">
+    <p>테스트용 블로그 입니다.</p>
 
-    <div class="category-name">
-      <h2>jekyll</h2>
-    </div>
-    
+  </div>
 
-    <div class="post_title">
-      <a href="/jekyll/2016/07/03/styles-for-simple.html">Styles at a glance</a>
-      <span class="date">3 Jul, 2016</span>
-    </div>
 
-    
+  <!-- S: disqus code (comment) -->
 
-    <div class="post_title">
-      <a href="/jekyll/2016/06/19/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-      <span class="date">19 Jun, 2016</span>
-    </div>
+  <div id="disqus_thread"></div>
+  <script>
 
-    
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+       var disqus_config = function () {
+       this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+       this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+       };
+       */
+      (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = '//richg0ld.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-    
+  <!-- E: disqus code (comment) -->
 
-    <div class="category-name">
-      <h2>technology</h2>
-    </div>
-    
+  <footer class="article-footer">
 
-    <div class="post_title">
-      <a href="/technology/2017/02/02/test-blog.html">Test blog</a>
-      <span class="date">2 Feb, 2017</span>
-    </div>
+  <section class="share">
+  <a class="share-link" href="" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+    Twitter
+  </a>
+  <a class="share-link" href="" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+    Facebook
+  </a>
+  <a class="share-link" href="" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530'); return false;">
+    Google+
+  </a> 
+</section>
 
-    
 
-    
+  <hr/>
 
-  </section>
-
-  <footer class="article-footer" mar>
-    <section class="author">
+  <section class="author">
   <div class="authorimage box" style="background: url(/assets/img/KJH.jpg)"></div>
   <div class="authorinfo box">
     <p>UI Developer | 김정현</p>
@@ -121,10 +130,13 @@
   </div>
 </section>
 
+
   </footer>
-</div>
+
+  
 
 
+</article>
 
           </div>
         </div>
